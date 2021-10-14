@@ -1,0 +1,17 @@
+div {
+    border: 1px solid navy;
+}
+
+section {
+    background-color: cornflowerblue;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 75px 175px;
+    grid-gap: 10px 50px;
+}
+
+#box-4 {
+    grid-column: 1/3;
+   /*  grid-column-end: 4; */
+}
